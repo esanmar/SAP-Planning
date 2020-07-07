@@ -1,0 +1,105 @@
+html { 
+    //background: url(http://srvpw02/ircio/images/image2.jpg)
+   //     no-repeat center center fixed; 
+   // -webkit-background-size: cover;
+   // -moz-background-size: cover;
+   // -o-background-size: cover;
+   // background-size: cover;
+}
+
+body {
+//background-image: linear-gradient(to top, #2b5876 0%, #c4e0e5 100%);
+//background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+background-image: linear-gradient(to top, #1e3c72  0%, #2a5298 100%);
+}
+
+ .resp-container {
+    position: relative;
+    overflow: hidden;
+    //padding-top: 18.8%;
+    padding-top: 18.8%;
+    //max-width: 100%;
+    //width: 100%;
+    //height: 250px;
+    //padding-top: 56.25%;
+	}
+  .resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+ }
+ 
+  .resp-containerv {
+    position: relative;
+    overflow: hidden;
+   //padding-top: 25%; 
+   padding-top: 26%;
+	}
+  .resp-iframev {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+ }
+
+div.highcharts-container g.highcharts-tracker > * {
+//  fill :#fff;
+ zIndex: 18;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+   table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+   // background-color: #2f4050;
+}
+
+th, td {
+    text-align: center;
+    overflow:hidden;
+    zoom:1;
+   // background-color: #2f4050;
+}
+tr:nth-child(even){
+	// background-color: #f2f2f2
+	}
+
+   .tiempo {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+	.faltan {
+	color: #FFFF00;
+   font-size: 130%;
+	font-weight: bold;
+	text-Shadow: 0px 1px 2px black;
+	font-family: proxima-nova,helvetica,arial,sans-seri;
+	text-align: center;
+	//font-family: Verdana, Geneva, sans-serif;
+ 	//	animation: blink-animation 15s steps(5, start) infinite;
+ // -webkit-animation: blink-animation 15s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }

@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+body,
+.container{background:#003f5c;padding:.3em 0 2em}
+
+iframe {
+margin-top: 0px;
+margin-bottom: 0px;
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+border-radius: 12px;
+-moz-box-shadow: 4px 4px 14px #000;
+-webkit-box-shadow: 4px 4px 14px #000;
+box-shadow: 4px 4px 14px #000;
+-moz-transform:rotate(0deg);
+-webkit-transform:rotate(0deg);
+-o-transform:rotate(0deg);
+-ms-transform:rotate(0deg);
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.1);
+} 
+
+ul#menu { 
+   list-style-type: none; 
+   margin: 0px 0px; 
+   padding: 5px; 
+}
+ul#menu li {
+   float: left;
+}
+ul#menu li  {
+   display: block;
+   margin: 5px; 
+   padding: 5px; 
+   text-decoration: none; 
+}
+
+ul {
+ list-style-type: none; 
+}
+ 
+h1{
+font-family: "Noto Sans", "Helvetica Neue", Helvetica, arial, sans-serif;
+font-size:3em;
+text-align:center;
+text-transform: uppercase;
+color: #003f5c;
+font-weight: 100;
+text-shadow:-1px 1px 0px #fff   
+}
+
+/* #Canvas Element Circular charts
+================================================== */
+canvas, video {display: inline-block;}
+
+
+.stats-container {
+margin: 0;
+padding: 0;
+list-style: none;
+text-align: center;
+padding-bottom: 70px;
+}
+
+.stats-container li {
+display: inline-block;
+margin: 0 4% 5px;
+position: relative;
+}
+
+.circular-stat {
+position: relative;
+ background-color: #003f5c;
+ color: #003f5c;
+
+}
+
+.circular-stat .digit-label {
+color:  #b2822f;
+font-family: "Noto Sans", "Helvetica Neue", Helvetica, arial, sans-serif;
+font-size: 3.2em;
+text-align: center;
+display: inline-block;
+position: absolute;
+//top: 11.5%;
+top: 4%;
+width: 75%;
+left: 12.5%;
+padding: 12px 0 0 8px;
+  text-shadow:-1px 1px 0px #fff 
+white-space: nowrap;
+overflow: hidden;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.circular-stat .text-label {
+font-family:"Noto Sans", "Helvetica Neue", Helvetica, arial, sans-serif;
+color: #003f5c;
+font-size:1.5em;
+top: 30%;
+left: 21.875%;
+width: 56.25%;
+padding-top: 1px;
+display: inline-block;
+position: absolute;
+text-align: center;
+border-top: 1px solid #003f5c;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-o-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+}
+/*
+span.text-title {
+color:  #444;
+font-family: "Noto Sans", "Helvetica Neue", Helvetica, arial, sans-serif;
+text-align: center;
+letter-spacing: -1px;
+font-size: 1.3em;
+font-weight: 400;
+text-shadow: -1px 1px 0px #FFF;
+padding: 30px 10px 0 0px;
+margin-top: 240px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+z-index: 99999;
+display: block;
+text-shadow: -1px 1px 0px #fff;
+}
+*/
+
+span.text-dates{
+font-size: 1.5em;
+font-family: "Noto Sans", "Helvetica Neue", Helvetica, arial, sans-serif;
+color: #999;
+text-shadow: -1px 1px 0px #fff;
+}
+
+@media only screen and (min-width: 1010px) { 
+.stats-container li {margin: 0 2% 5px;}
+}
+@media only screen and (max-width: 1009px) { 
+.stats-container li {margin: 0 -.2em 5px;}
+}
